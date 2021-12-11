@@ -1,0 +1,36 @@
+<DOCTYPE html>
+ <html lang='es'>
+ <head><title>Bootstrap</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">   
+ <style>
+     div {background-color:aqua; border:1px solid black;text-align:center}
+ </style>     
+ </head>
+<body>
+  <br /><br />
+  <div class='container'>    
+  <div class="row">
+      <div class="col-md-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="opcion-concepto" data-toggle="list" href="#apartado-concepto" role="tab" aria-controls="home">Front-End para Navegadores Web</a>
+          <a class="list-group-item list-group-item-action" id="opcion-por-que" data-toggle="list" href="#apartado-por-que" role="tab" aria-controls="profile">Por qué?</a>
+          <a class="list-group-item list-group-item-action" id="opcion-para-que" data-toggle="list" href="#apartado-para-que" role="tab" aria-controls="messages">Para qué?</a>
+          <a class="list-group-item list-group-item-action" id="opcion-que" data-toggle="list" href="#apartado-que" role="tab" aria-controls="settings">Què?</a>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="apartado-concepto" role="tabpanel" aria-labelledby="opcion-concepto"></div>
+          <div class="tab-pane fade" id="apartado-por-que" role="tabpanel" aria-labelledby="opcion-por-que">porque ya verás tú</div>
+          <div class="tab-pane fade" id="apartado-para-que" role="tabpanel" aria-labelledby="opcion-para-que">para que veas tú</div>
+          <div class="tab-pane fade" id="apartado-que" role="tabpanel" aria-labelledby="opcion-que">lo que ves tú</div>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">.col-md-8</div>
+    <div class="col-md-4">.col-md-4</div>
+  </div>
+ </div>      
+ </body>
+</html>
